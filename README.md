@@ -30,15 +30,15 @@ Project Structure
 📁 Housing-Price-Prediction
 
 │
-├── app.py                       # Flask App for UI & Prediction
-├── model.py                     # Model Training & Evaluation Script
-├── templates/
-│   ├── index.html               # Input Form for User
-│   ├── results.html             # Price Prediction Result Page
-│   ├── model.html               # Model Evaluation Table
-├── model_evaluation_results.csv # Performance metrics of models
-├── *.pkl                        # Saved trained models
-├── README.md                    # Project Documentation
+├── app.py                       # Flask App for UI & Prediction  
+├── model.py                     # Model Training & Evaluation Script  
+├── templates/    
+│   ├── index.html               # Input Form for User  
+│   ├── results.html             # Price Prediction Result Page  
+│   ├── model.html               # Model Evaluation Table  
+├── model_evaluation_results.csv # Performance metrics of models  
+├── *.pkl                        # Saved trained models  
+├── README.md                    # Project Documentation  
 
 
 ⚙️ How to Run the Project Locally
