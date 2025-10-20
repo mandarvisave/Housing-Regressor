@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import pickle
 
 #Load Dataset
-data = pd.read_csv(r"D:\Naresh IT FSDS Prakash Senapathi 7 PM\VSCODE\CAPSTONE PROJECT\HOUSING Regressor\data\USA_Housing.csv")
+data = pd.read_csv(r"D:\VSCODE\CAPSTONE PROJECT\HOUSING Regressor\USA_Housing.csv")
 
 #Preprocessing
 X = data.drop(['Price','Address'], axis=1)
