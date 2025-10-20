@@ -16,7 +16,9 @@
     <h1 class="text-center">Model Evaluation Results</h1>
     <div class="container">
         {% for table in tables %}
-            {{ table|safe }}
+            <div class="table-responsive">
+                {{ table|safe }}
+            </div>
         {% endfor %}
     </div>
     <div class="text-center mt-4">
